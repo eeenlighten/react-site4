@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
-}
+@charset "UTF-8";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* reset */
+@import "./assets/css/reset.css";
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* font */
+@import "./assets/css/fonts.css";
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* button */
+@import "./assets/css/Button.css";
 
-.App-link {
-  color: #61dafb;
-}
+/* cards */
+@import "./assets/css/Cards.css";
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* herosection */
+@import "./assets/css/HeroSection.css";
+
+/* navbar */
+@import "./assets/css/Navbar.css";
+
+/* footer */
+@import "./assets/css/Footer.css";
